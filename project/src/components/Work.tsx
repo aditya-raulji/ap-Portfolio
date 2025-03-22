@@ -177,7 +177,7 @@ export function Work() {
       title: 'Video Streaming Platform',
       description: 'A custom video streaming platform with advanced playback controls and responsive design.',
       image: 'https://media-hosting.imagekit.io//f8852e6f442d43d2/Screenshot%202025-03-04%20114041.png?Expires=1835676653&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=zySs3infKCJ5yz~E-q7xnvgad6QyHxmeFEKhbUTV0BZFzPJO1Z8M7J4axPhKUPf2xlh1Jq93eEyOeHlKJvs0H~2dkH~4qp56h1xGDcyKwtxyfKuW29FHukpI7bIR1JCDQxK0RzBWn84lO0mmAJu7QQfn0oIQAj9masE4z2BwNylmD21Pg5r9A6iaoO0~o2kxXrEZAhFa0Kmd0w0YVcJY2SK5JE59Nry9lxuzzYFtMUzboyTrpGJfgsIPlau-BNaIyp2bdaoSMI3mprkSW~DUWKbYO4EN3hbVryN7mGg51spCczNa8KzEqFZQDKHPusmCm8i2wWtCT19x7CMVMX92Ig__',
-      videoUrl: 'https://eu-central.storage.cloudconvert.com/tasks/2ef739f7-c696-4293-a55d-d6af1a037b14/CareSlotter%20Website.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20250304%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20250304T060430Z&X-Amz-Expires=86400&X-Amz-Signature=6265fa3579e595841b0374bb8e80dd3b9b6daff8247e862f8091e11c971ae540&X-Amz-SignedHeaders=host&response-content-disposition=inline%3B%20filename%3D%22CareSlotter%20Website.mp4%22&response-content-type=video%2Fmp4&x-id=GetObject',
+      videoUrl: 'https://drive.google.com/file/d/1dPPNcOF_liJzBlU0ZvFfBowSkfqqv7CB/view',
       category: 'frontend',
       technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Media APIs'],
       features: [
