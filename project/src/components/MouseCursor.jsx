@@ -5,12 +5,12 @@ export function MouseCursor() {
   const [isHovering, setIsHovering] = useState(false);
 
   useEffect(() => {
-    const updatePosition = (e: MouseEvent) => {
+    const updatePosition = (e) => {
       setPosition({ x: e.clientX, y: e.clientY });
     };
 
-    const updateHoverState = (e: MouseEvent) => {
-      const target = e.target as HTMLElement;
+    const updateHoverState = (e) => {
+      const target = e.target;
       setIsHovering(
         target.tagName === 'BUTTON' ||
         target.tagName === 'A' ||

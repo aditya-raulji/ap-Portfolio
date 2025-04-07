@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Github, Linkedin, Youtube, Download, ArrowRight } from 'lucide-react';
+import { Github, Linkedin, Twitter, Download, ArrowRight } from 'lucide-react';
 
 export function Hero() {
   const [counts, setCounts] = useState({
@@ -18,7 +18,7 @@ export function Hero() {
 
   useEffect(() => {
     finalStats.forEach((stat, index) => {
-      const key = Object.keys(counts)[index] as keyof typeof counts;
+      const key = Object.keys(counts)[index];
       const duration = 10000;
       const steps = 100;
       const increment = stat.value / steps;
@@ -40,7 +40,6 @@ export function Hero() {
     });
   }, []);
 
-  // Animation keyframes with modified typewriter effect
   const heroAnimations = `
     @keyframes fadeInUp {
       from {
@@ -52,26 +51,24 @@ export function Hero() {
         transform: translateY(0);
       }
     }
-      
-      
-    
+
     @keyframes float {
       0% { transform: translateY(0px); }
       50% { transform: translateY(-10px); }
       100% { transform: translateY(0px); }
     }
-    
+
     @keyframes bounceIn {
       0% { opacity: 0; transform: scale(0.8); }
       60% { opacity: 1; transform: scale(1.05); }
       100% { transform: scale(1); }
     }
-    
+
     @keyframes typing {
       from { width: 0; }
       to { width: 100%; }
     }
-    
+
     @keyframes slideInLeft {
       from {
         opacity: 0;
@@ -82,45 +79,50 @@ export function Hero() {
         transform: translateX(0);
       }
     }
-    
+
     .typewriter {
       overflow: hidden;
       white-space: nowrap;
       border-right: 2px solid rgba(34,197,94,0.7);
       animation: typing 3s steps(20) 1s 1 normal both;
     }
-    
+
     .typewriter-secondary {
       overflow: hidden;
       white-space: nowrap;
       border-right: 2px solid rgba(34,197,94,0.7);
       animation: typing 2s steps(10) 4s 1 normal both;
     }
-    
-    /* Remove cursor after animation */
+
     .typewriter.finished,
     .typewriter-secondary.finished {
       border-right: none;
     }
   `;
 
-  // State to track when animations are finished
   const [isTypingFinished, setIsTypingFinished] = useState(false);
 
   useEffect(() => {
-    // Set timeout to remove cursor after all typing animations complete
     const timer = setTimeout(() => {
       setIsTypingFinished(true);
-    }, 6000); // 6s = 1s delay + 3s first text + 2s second text
+    }, 6000);
 
     return () => clearTimeout(timer);
   }, []);
 
+  const scrollToWork = () => {
+    const workSection = document.getElementById('work-section');
+    if (workSection) {
+      workSection.scrollIntoView({ behavior: 'instant' });
+    }
+  };
+
   return (
     <section 
-      id="home" 
-      className="pt-16 md:pt-20 min-h-screen flex items-center relative overflow-hidden bg-black"
-    >
+  id="home" 
+  className="scroll-mt-20 pt-24 md:pt-28 min-h-[100dvh] flex items-center relative overflow-hidden bg-black"
+>
+
       <style>{heroAnimations}</style>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
@@ -154,11 +156,18 @@ export function Hero() {
               className="flex flex-wrap gap-4"
               style={{ animation: 'fadeInUp 1s ease-out 0.4s both' }}
             >
-              <button className="text-sm md:text-base px-4 md:px-6 py-2 md:py-3 rounded bg-gradient-to-r from-green-500/20 to-purple-500/20 text-green-500 border border-green-500/50 hover:scale-105 transition-all duration-300 flex items-center gap-2">
+              <a
+                href="/Aditya_Raulji_Resume.pdf"
+                download
+                className="text-sm md:text-base px-4 md:px-6 py-2 md:py-3 rounded bg-gradient-to-r from-green-500/20 to-purple-500/20 text-green-500 border border-green-500/50 hover:scale-105 transition-all duration-300 flex items-center gap-2"
+              >
                 <Download size={18} />
                 Download Resume
-              </button>
-              <button className="text-sm md:text-base px-4 md:px-6 py-2 md:py-3 rounded bg-white/5 text-white hover:bg-white/10 hover:scale-105 transition-all duration-300 flex items-center gap-2">
+              </a>
+              <button 
+                onClick={scrollToWork}
+                className="text-sm md:text-base px-4 md:px-6 py-2 md:py-3 rounded bg-white/5 text-white hover:bg-white/10 hover:scale-105 transition-all duration-300 flex items-center gap-2"
+              >
                 View Work
                 <ArrowRight size={18} />
               </button>
@@ -171,11 +180,13 @@ export function Hero() {
               {[
                 { Icon: Github, href: 'https://github.com/aditya-raulji' },
                 { Icon: Linkedin, href: 'https://www.linkedin.com/in/aditya-raulji-714492322/' },
-                { Icon: Youtube, href: '#' },
+                { Icon: Twitter, href: 'https://x.com/raulji_aditya07' },
               ].map(({ Icon, href }, index) => (
                 <a
                   key={index}
                   href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-gradient-to-r from-green-500/10 to-purple-500/10 flex items-center justify-center hover:scale-110 hover:from-green-500/20 hover:to-purple-500/20 transition-all duration-300"
                   style={{ animation: `bounceIn 0.5s ease-out ${0.8 + index * 0.1}s both` }}
                 >
@@ -209,7 +220,7 @@ export function Hero() {
           style={{ animation: 'fadeInUp 1s ease-out 1s both' }}
         >
           {finalStats.map((stat, index) => {
-            const key = Object.keys(counts)[index] as keyof typeof counts;
+            const key = Object.keys(counts)[index];
             return (
               <div
                 key={index}

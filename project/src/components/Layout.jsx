@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { NavBar } from './NavBar';
 import { MouseCursor } from './MouseCursor';
 
-export function Layout({ children }: { children: React.ReactNode }) {
+export function Layout({ children }) {
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
