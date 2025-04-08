@@ -7,10 +7,10 @@ export function Services() {
       id: '01',
       title: 'Web Development',
       icon: Code2,
-      description: 'Building modern, responsive web applications using cutting-edge technologies like React, Next.js, and Node.js.',
+      description: 'Building modern, responsive web applications using cutting-edge technologies like React, Angular.js, and Node.js.',
       details: 'Specializing in scalable, high-performance web solutions with clean code architecture and seamless user experiences.',
       features: [
-        'Custom Web Applications with React/Next.js',
+        'Custom Web Applications with React/Node.js',
         'RESTful & GraphQL API Integration',
         'Performance Optimization & Lazy Loading',
         'Responsive & Mobile-First Design'
