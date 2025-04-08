@@ -14,27 +14,26 @@ export function Resume() {
   const experiences = [
     {
       title: 'Junior Full Stack Developer',
-      company: 'TechCorp Inc', // Added missing company field
-      period: '2023 - Present', // Added sample period
-      location: 'Remote', // Added sample location
+      // Added missing company field
+      // Added sample period
+      // Added sample location
       description: 'Leading development of enterprise-grade web applications using modern tech stacks.',
       details: 'Responsible for end-to-end development, from architecture design to deployment, focusing on scalability and user experience.',
       achievements: [
-        'Architected microservices infrastructure serving 100K+ users',
+        'All know about Frontend and Backend',
         'Reduced loading times by 60% through optimization techniques',
-        'Mentored 5 junior developers in React and Node.js',
-        'Implemented CI/CD pipelines using GitHub Actions',
+        
+        'All Know anout RESETFULL API ',
       ],
     },
     {
       title: 'Frontend Developer',
-      company: 'Digital Solutions Ltd',
-      period: '2021 - 2023', // Added sample period
-      location: 'New York, NY', // Added sample location
+    
+     // Added sample location
       description: 'Developed and maintained responsive web applications for diverse clients.',
       details: 'Collaborated with design teams to create visually appealing and functional interfaces.',
       achievements: [
-        'Built and deployed 20+ client websites using React',
+        'Built and deployed 7+ websites using React',
         'Created reusable component library for design systems',
         'Optimized frontend performance by 40%',
         'Led UI/UX initiatives for 3 major projects',
@@ -54,8 +53,8 @@ export function Resume() {
         '9 CGPA',
         "Dean's List all semesters",
         'President of Computer Science Club (2025-2026)', // Adjusted years to match period
-        'Completed internship at major tech firm',
-        'Received Junior Project Award for web platform',
+       
+       
       ],
     },
   ];
