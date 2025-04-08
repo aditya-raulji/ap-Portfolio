@@ -5,6 +5,7 @@ import { Services } from './components/Services'; // Importing Services section 
 import { Resume } from './components/Resume';   // Importing Resume section component
 import { Work } from './components/Work';       // Importing Work section component
 import { Contact } from './components/Contact'; // Importing Contact section component
+import Contribution from './components/Contribution';
 
 // Main App functional component
 function App() {
@@ -19,6 +20,10 @@ function App() {
       
       {/* Resume section - probably showing experience/education */}
       <Resume />
+
+      <Contribution/>
+
+      
       
       {/* Work section - might display portfolio/projects */}
       <Work />
