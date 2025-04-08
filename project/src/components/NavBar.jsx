@@ -151,7 +151,7 @@ export function NavBar() {
                 className="px-3 py-1.5 rounded bg-green-500/20 text-green-500 border border-green-500/50 hover:bg-green-500/30 transition-all duration-300 hire-me-glow text-sm"
                 style={{ animation: `slideInRight 0.5s ease-out ${1.2}s both` }}
               >
-                Hire Me {/* Corrected typo */}
+                Hier Me  {/* Corrected typo */}
               </button>
             </div>
           </div>
@@ -192,7 +192,7 @@ export function NavBar() {
                 className="w-full mt-4 px-3 py-1.5 rounded bg-green-500/20 text-green-500 border border-green-500/50 hover:bg-green-500/30 transition-all duration-300 hire-me-glow text-sm"
                 style={{ animation: `fadeInScale 0.4s ease-out ${0.6}s both` }}
               >
-                Hire Me {/* Corrected typo */}
+                Hier Me  {/* Corrected typo */}
               </button>
             </div>
           </div>
