@@ -207,7 +207,7 @@ export function Hero() {
                 animation: 'spin 10s linear infinite'
               }} />
               <img
-                src="https://media-hosting.imagekit.io//63b816123e4d4166/1432.jpg?Expires=1834738125&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=jHIdm7z1mQhJ4qH6a043wwfngWUU7Gmd9sndo1wkbz5g6lo2y6MB4ucgs5WZHFBWZ533ijtIUl6NclOBKj4Ow2FEUxqQBm5DthW~pQElzuAWXtOPhbddBmb4H4uSYFcjc9mQ8prvsUnBR31bIMlSdzLA5tWrC5zlmZyw2t0PhUa7LsgEoFMFUnifzu7a5K0iWBORRlCYXpvvXiGQIOVFmwZ7mLOQVUvzdoCNUoCmqoVtGkdBm5wvZheh-tJZj6oaurnzM8ryEfCfp1G84DsFmVLPzNzXz8uJKg2hP1B1QAZ0ujSHiVmbTvlohXbj3A6XOIHLBT1k6smvhE1TmiRWFA__"
+                src="https://ik.imagekit.io/rbdwisvez/179102178.jpeg?updatedAt=1743958513051"
                 alt="Developer Portrait"
                 className="w-full h-full object-cover rounded-full border-4 border-green-500/50"
               />

@@ -111,62 +111,7 @@ export function Work() {
   const projects = [
 
 
-    // full stack
-    {
-      title: 'Blogs',
-      role: 'Full-Stack Developer',
-      description: 'CareSlotter Blogs is a seamless doctor appointment booking system that connects patients with healthcare professionals in real time.',
-      image: 'https://ik.imagekit.io/rbdwisvez/Screenshot%202025-04-06%20191459.png?updatedAt=1743947378214',
-      videoUrl: 'https://ik.imagekit.io/rbdwisvez/CareSlotter%20Website%20(1).mp4?updatedAt=1743958481056',
-      category: 'fullstack',
-      technologies: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'JWT', 'ClosedPr API'],
-      features: ['Secure scheduling', 'Teleconsultation', 'Automated reminders', 'Admin dashboard'],
-      links: {
-        live: 'https://blog-1-l4wp.onrender.com/',
-        github: 'https://github.com/aditya-raulji/Blog',
-        ClosedPr: 'https://github.com/codinggita/care_slotter/pulls?q=is%3Apr+is%3Aclosed'
-      },
-      detailedDescription: 'CareSlotter Blogs is a seamless doctor appointment booking system that connects patients with healthcare professionals in real time. It offers secure scheduling, teleconsultation options, and an intuitive user experience for clinics and hospitals. With features like automated reminders and an admin dashboard, CareSlotter Blog enhances efficiency in healthcare management.',
-      keyFeatures: ['Real-time Booking', 'Teleconsultation', 'Admin Dashboard', 'Reminders'],
-      codeSnippet: '// Blog backend API code here'
-    },
-    {
-      title: 'Resume Builder',
-      role: 'Full-Stack Developer',
-      description: 'A modern resume builder website that helps users create professional, ATS-friendly resumes effortlessly.',
-      image: 'https://ik.imagekit.io/rbdwisvez/Screenshot%202025-04-06%20151720.png?updatedAt=1743940333293',
-      videoUrl: 'https://assets.mixkit.co/videos/preview/mixkit-tree-with-yellow-flowers-1173-large.mp4',
-      category: 'fullstack',
-      technologies: ['MongoDB', 'React.js', 'Node.js'],
-      features: ['Customizable templates', 'Real-time previews', 'ATS-friendly', 'User-friendly'],
-      links: {
-        live: 'https://resume-builder-ar.onrender.com',
-        github: 'https://github.com/aditya-raulji/Resume-builder'
-      },
-      detailedDescription: 'A modern resume builder website that helps users create professional, ATS-friendly resumes effortlessly with customizable templates and real-time previews.',
-      keyFeatures: ['Templates', 'Previews', 'ATS-friendly', 'Ease of Use'],
-      codeSnippet: '// Resume builder backend code here'
-    },
-
   
-    {
-      title: 'Youtube Clone',
-      role: 'Full-Stack Developer',
-      description: 'A YouTube-inspired platform allowing users to search, view, and filter videos dynamically.',
-      image: 'https://ik.imagekit.io/rbdwisvez/Screenshot%202025-04-06%20172649.png?updatedAt=1743940685312',
-      videoUrl: 'https://assets.mixkit.co/videos/preview/mixkit-tree-with-yellow-flowers-1173-large.mp4',
-      category: 'fullstack',
-      technologies: ['MongoDB', 'React.js', 'Node.js'],
-      features: ['Video search', 'Dynamic filtering', 'Video playback', 'Sidebar navigation'],
-      links: {
-        live: 'https://youtube-react-5nna.onrender.com/',
-        github: 'https://github.com/aditya-raulji/yt-clone'
-      },
-      detailedDescription: 'A YouTube-inspired platform allowing users to search, view, and filter videos dynamically based on categories and search queries. Implements video playback with suggestions and sidebar navigation.',
-      keyFeatures: ['Search', 'Filters', 'Playback', 'Navigation'],
-      codeSnippet: '// YouTube clone API code here'
-    },
-
      // Frontend routes
     {
       title: 'Shopsy Website Clone',
@@ -312,6 +257,62 @@ export function Work() {
       codeSnippet: '// Sudoku JS code here'
     },
 
+      // full stack
+      {
+        title: 'Blogs',
+        role: 'Full-Stack Developer',
+        description: 'CareSlotter Blogs is a seamless doctor appointment booking system that connects patients with healthcare professionals in real time.',
+        image: 'https://ik.imagekit.io/rbdwisvez/Screenshot%202025-04-06%20191459.png?updatedAt=1743947378214',
+        videoUrl: 'https://ik.imagekit.io/rbdwisvez/CareSlotter%20Website%20(1).mp4?updatedAt=1743958481056',
+        category: 'fullstack',
+        technologies: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'JWT', 'ClosedPr API'],
+        features: ['Secure scheduling', 'Teleconsultation', 'Automated reminders', 'Admin dashboard'],
+        links: {
+          live: 'https://blog-1-l4wp.onrender.com/',
+          github: 'https://github.com/aditya-raulji/care_slotter',
+          ClosedPr: 'https://github.com/codinggita/care_slotter/pulls?q=is%3Apr+is%3Aclosed'
+        },
+        detailedDescription: 'CareSlotter Blogs is a seamless doctor appointment booking system that connects patients with healthcare professionals in real time. It offers secure scheduling, teleconsultation options, and an intuitive user experience for clinics and hospitals. With features like automated reminders and an admin dashboard, CareSlotter Blog enhances efficiency in healthcare management.',
+        keyFeatures: ['Real-time Booking', 'Teleconsultation', 'Admin Dashboard', 'Reminders'],
+        codeSnippet: '// Blog backend API code here'
+      },
+      {
+        title: 'Resume Builder',
+        role: 'Full-Stack Developer',
+        description: 'A modern resume builder website that helps users create professional, ATS-friendly resumes effortlessly.',
+        image: 'https://ik.imagekit.io/rbdwisvez/Screenshot%202025-04-06%20151720.png?updatedAt=1743940333293',
+        videoUrl: 'https://assets.mixkit.co/videos/preview/mixkit-tree-with-yellow-flowers-1173-large.mp4',
+        category: 'fullstack',
+        technologies: ['MongoDB', 'React.js', 'Node.js'],
+        features: ['Customizable templates', 'Real-time previews', 'ATS-friendly', 'User-friendly'],
+        links: {
+          live: 'https://resume-builder-ar.onrender.com',
+          github: 'https://github.com/aditya-raulji/Resume-builder'
+        },
+        detailedDescription: 'A modern resume builder website that helps users create professional, ATS-friendly resumes effortlessly with customizable templates and real-time previews.',
+        keyFeatures: ['Templates', 'Previews', 'ATS-friendly', 'Ease of Use'],
+        codeSnippet: '// Resume builder backend code here'
+      },
+  
+    
+      {
+        title: 'Youtube Clone',
+        role: 'Full-Stack Developer',
+        description: 'A YouTube-inspired platform allowing users to search, view, and filter videos dynamically.',
+        image: 'https://ik.imagekit.io/rbdwisvez/Screenshot%202025-04-06%20172649.png?updatedAt=1743940685312',
+        videoUrl: 'https://assets.mixkit.co/videos/preview/mixkit-tree-with-yellow-flowers-1173-large.mp4',
+        category: 'fullstack',
+        technologies: ['MongoDB', 'React.js', 'Node.js'],
+        features: ['Video search', 'Dynamic filtering', 'Video playback', 'Sidebar navigation'],
+        links: {
+          live: 'https://youtube-react-5nna.onrender.com/',
+          github: 'https://github.com/aditya-raulji/yt-clone'
+        },
+        detailedDescription: 'A YouTube-inspired platform allowing users to search, view, and filter videos dynamically based on categories and search queries. Implements video playback with suggestions and sidebar navigation.',
+        keyFeatures: ['Search', 'Filters', 'Playback', 'Navigation'],
+        codeSnippet: '// YouTube clone API code here'
+      },
+  
     // backend
     {
       title: 'API Server',
