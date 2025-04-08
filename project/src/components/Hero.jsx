@@ -157,11 +157,11 @@ export function Hero() {
               style={{ animation: 'fadeInUp 1s ease-out 0.4s both' }}
             >
               <a
-                href="/Aditya_Raulji_Resume.pdf"
+                href="https://drive.google.com/drive/folders/1i-vS8fM_nWDVsMwnibLNndH-79VNw4Iu?usp=sharing"
                 download
                 className="text-sm md:text-base px-4 md:px-6 py-2 md:py-3 rounded bg-gradient-to-r from-green-500/20 to-purple-500/20 text-green-500 border border-green-500/50 hover:scale-105 transition-all duration-300 flex items-center gap-2"
               >
-                <Download size={18} />
+                
                 Download Resume
               </a>
               <button 
