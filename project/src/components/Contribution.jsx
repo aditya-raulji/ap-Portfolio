@@ -70,9 +70,9 @@ const repositories = [
     lastUpdated: "2024-03-12",
     contributors: 4,
     languages: [
-      { name: "Go", percentage: 40 },
-      { name: "Solidity", percentage: 35 },
-      { name: "TypeScript", percentage: 25 }
+      { name: "React", percentage: 40 },
+      { name: "Javascript", percentage: 35 },
+      { name: "Node.js", percentage: 25 }
     ],
     deployedUrl: "https://chain-analytics.demo",
     metrics: {
