@@ -259,16 +259,16 @@ export function Work() {
 
       // full stack
       {
-        title: 'Blogs',
+        title: 'Care Slotter',
         role: 'Full-Stack Developer',
-        description: 'CareSlotter Blogs is a seamless doctor appointment booking system that connects patients with healthcare professionals in real time.',
+        description: 'CareSlotter is a seamless doctor appointment booking system that connects patients with healthcare professionals in real time.',
         image: 'https://ik.imagekit.io/rbdwisvez/Screenshot%202025-04-06%20191459.png?updatedAt=1743947378214',
         videoUrl: 'https://ik.imagekit.io/rbdwisvez/CareSlotter%20Website%20(1).mp4?updatedAt=1743958481056',
         category: 'fullstack',
         technologies: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'JWT', 'ClosedPr API'],
         features: ['Secure scheduling', 'Teleconsultation', 'Automated reminders', 'Admin dashboard'],
         links: {
-          live: 'https://blog-1-l4wp.onrender.com/',
+          live: 'https://care-slotter-doctor-appointment.onrender.com',
           github: 'https://github.com/aditya-raulji/care_slotter',
           ClosedPr: 'https://github.com/codinggita/care_slotter/pulls?q=is%3Apr+is%3Aclosed'
         },
