@@ -10,6 +10,7 @@ export function NavBar() {
     { label: 'Services', href: 'services' },
     { label: 'Resume', href: 'resume' },
     { label: 'Work', href: 'work-section' },
+    { label: 'Certificates', href: 'certificates' }, // Fixed href and label
     { label: 'Contact', href: 'contact' }
   ];
 
@@ -20,8 +21,10 @@ export function NavBar() {
       const elementPosition = element.offsetTop - navbarHeight;
       window.scrollTo({
         top: elementPosition,
-        behavior: 'instant' // Changed to smooth scrolling for better UX
+        behavior: 'smooth' // Consistent smooth scrolling
       });
+    } else {
+      console.error(`Section with id "${sectionId}" not found`);
     }
     setIsOpen(false); // Close mobile menu after clicking
   };
@@ -151,7 +154,7 @@ export function NavBar() {
                 className="px-3 py-1.5 rounded bg-green-500/20 text-green-500 border border-green-500/50 hover:bg-green-500/30 transition-all duration-300 hire-me-glow text-sm"
                 style={{ animation: `slideInRight 0.5s ease-out ${1.2}s both` }}
               >
-                Hier Me  {/* Corrected typo */}
+                Hire Me {/* Fixed typo */}
               </button>
             </div>
           </div>
@@ -192,7 +195,7 @@ export function NavBar() {
                 className="w-full mt-4 px-3 py-1.5 rounded bg-green-500/20 text-green-500 border border-green-500/50 hover:bg-green-500/30 transition-all duration-300 hire-me-glow text-sm"
                 style={{ animation: `fadeInScale 0.4s ease-out ${0.6}s both` }}
               >
-                Hier Me  {/* Corrected typo */}
+                Hire Me {/* Fixed typo */}
               </button>
             </div>
           </div>
