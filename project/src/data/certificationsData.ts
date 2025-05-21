@@ -13,7 +13,7 @@ export interface Certificate {
 
 export const certifications: Certificate[] = [
   {
-    id: "cert1",
+    id:               "cert1",
     name: "CSS(Basic)",
     issuer: "HackerRank",
     category: "Web",
@@ -36,8 +36,27 @@ export const certifications: Certificate[] = [
     image: "https://ik.imagekit.io/rbdwisvez/Screenshot%202025-05-19%20140141.png?updatedAt=1747659345970",
     skills: ["Compute", "Storage", "Security", "Networking", "Databases"],
    
-    verificationUrl: "https://ik.imagekit.io/rbdwisvez/Screenshot%202025-05-19%20140141.png?updatedAt=1747659345970",
+    verificationUrl: "https://simpli-web.app.link/e/ZIfUts7DxTb",
 
-  },
+  }, 
+{
+  id: "cart3",
+  name: "GitHub Copilot Fundamentals",
+  issuer: "Microsoft (via Simplilearn SkillUp)",
+  category: "Developer Tools / AI Pair Programming",
+  date: "20 May 2025",
+  description: "This certificate acknowledges that Aditya Raulji has successfully completed the online course 'GitHub Copilot Fundamentals'. The course is designed to deepen skills in using GitHub Copilot effectively for coding assistance and AI-powered development productivity.",
+  image: "https://ik.imagekit.io/esmv2pqgj/Screenshot%202025-05-20%20145448.png?updatedAt=1747802170629",
+  skills: [
+    "GitHub Copilot",
+    "AI-assisted coding",
+    "Developer Productivity",
+    "GitHub Tools",
+    "Programming Fundamentals"
+  ],
+  verificationUrl: "https://simpli-web.app.link/e/guv5781DxTb"
+}
+
+
 
 ];
