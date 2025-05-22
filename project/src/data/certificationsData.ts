@@ -12,21 +12,8 @@ export interface Certificate {
 }
 
 export const certifications: Certificate[] = [
-  {
-    id:               "cert1",
-    name: "CSS(Basic)",
-    issuer: "HackerRank",
-    category: "Web",
-    date: "15 May 2025",
-    description: "This certificate recognizes the successful completion of foundational training in Cascading Style Sheets (CSS).",
-    image: "https://ik.imagekit.io/rbdwisvez/Screenshot%202025-05-15%20144929.png?updatedAt=1747658987979",
-    skills: ["CSS"],
-    
-    verificationUrl: "https://www.hackerrank.com/certificates/dbb550684d54"
-    
-    
-  },
-  {
+
+    {
     id: "cert2",
     name: "Azure Services Basics",
     issuer: "Microsoft Corporation",
@@ -55,7 +42,38 @@ export const certifications: Certificate[] = [
     "Programming Fundamentals"
   ],
   verificationUrl: "https://simpli-web.app.link/e/guv5781DxTb"
+},
+
+{
+  id: "cart 4",
+  name: "SQL (Basic)",
+  issuer: "HackerRank",
+  category: "Web",
+  date: "2025-05-21",
+  description: "Successfully earned the SQL (Basic) certification from HackerRank, validating foundational skills in SQL including querying, filtering, sorting, and joining data.",
+  image: "https://ik.imagekit.io/esmv2pqgj/Screenshot%202025-05-22%20081156.png?updatedAt=1747882640370",
+  skills: ["SQL", "Database", "Data Querying", "Joins", "Filtering", "Sorting"],
+  credentialId: "C34F6FB2377B",
+  verificationUrl: "https://www.hackerrank.com/certificates/c34f6fb2377b"
 }
+,
+  {
+    id:               "cert1",
+    name: "CSS(Basic)",
+    issuer: "HackerRank",
+    category: "Web",
+    date: "15 May 2025",
+    description: "This certificate recognizes the successful completion of foundational training in Cascading Style Sheets (CSS).",
+    image: "https://ik.imagekit.io/rbdwisvez/Screenshot%202025-05-15%20144929.png?updatedAt=1747658987979",
+    skills: ["CSS"],
+    
+    verificationUrl: "https://www.hackerrank.com/certificates/dbb550684d54"
+    
+    
+  },
+
+
+
 
 
 
